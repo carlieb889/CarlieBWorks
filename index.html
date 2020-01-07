@@ -8,19 +8,53 @@
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
-    <nav>
+
+    <!-- Nav -->
+    <nav class="sticky">
       <input type="checkbox" id="check">
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <label class="logo">Carlie B</label>
+      <label class="logo"><a href="#home-section">Carlie B</a></label>
       <ul>
-        <li><a class="active" href="#">Portfolio</a></li>
-        <li><a href="#">Process</a></li>
-        <li><a href="#">About</a></li>
+        <li><a class="active" href="#home-section">About</a></li>
+        <li><a href="#work-section">Portfolio</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
-    <section></section>
+    <!-- End of Nav -->
+
+
+    <!-- About Me -->
+    <div class="intro" id="home-section">
+        <div class="me"><img class="thatsMe" src="images/me.jpg" alt="Picture of Carlie B"></div>
+
+        <div class="me">
+            <p>Hi, I'm Carlie B!<br><br> I am a UX Designer educated by the best, University of Texas. 
+            <br><br>
+            I was born and raised in Texas but love to travel! I can be found hiking and swimming most days. I take bad weather as an excuse to stay in and play Sims.<img src="images/sims.png" style="max-height: 26px;">
+            <br><br>
+            My passion for building responsive web designs, and capability to never forget who I am designing for allows me to create user-friendly products and designs.</p></div>
+    </div>
+<!-- End of About Me -->
+    
+
+<!-- Work -->
+<section class="work-section" id="work-section">
+
+    <div class="container">
+        <div class="box1"><img class="worksPic" src="images/BA Mockup1.png"></div>
+        <div class="box">Bike Austin</div>
+        <div class="box1"><img class="worksPic" src="images/BS Mockup1.png"></div>
+        <div class="box">Buddy System</div>
+        <div class="box1"><img class="worksPic" src="images/Torchys Mockup.png"></div>
+        <div class="box">The Devil Made Me Do It</div>
+        <div class="box1"><img class="worksPic" src="images/PaP Mockup.png"></div>
+        <div class="box">Pick a Plate</div>
+        
+    </div>
+
+</section>
+
   </body>
 </html>

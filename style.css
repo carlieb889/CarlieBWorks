@@ -7,14 +7,28 @@
     list-style: none;
     box-sizing: border-box;
   }
+
   body{
     font-family: 'Montserrat', sans-serif;
   }
+
+  a { 
+    color: inherit; 
+} 
+
   nav{
     background: #0E4B50;
     height: 80px;
     width: 100%;
   }
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+
   label.logo{
     color: white;
     font-size: 50px;
@@ -43,6 +57,13 @@
     background: #09B584;
     transition: .5s;
   }
+
+  a.sticky,a:hover{
+    color: #09b584;
+    background: #0E4B50;
+    transition: .5s;
+  }
+
   .checkbtn{
     font-size: 30px;
     color: white;
@@ -88,15 +109,81 @@
     }
     a:hover,a.active{
       background: none;
-      color: #0082e6;
+      color: #09b584;
     }
     #check:checked ~ ul{
       left: 0;
     }
   }
-  section{
-    background: url(bg1.jpg) no-repeat;
-    background-size: cover;
-    height: calc(100vh - 80px);
-  }
+
+  /* End of Nav */
+
+  /* About Me */
+.intro {
+    padding-top: 40px;
+    margin: 60px auto;
+    width: 60%;
+    height: 420px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row: auto;
+    grid-column-gap: 20px;
+}
+
+.thatsMe {
+    max-height: 100%;
+    width: auto;
+    border-radius: 2%;
+}
+
+.me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 18px;
+}
   
+
+  /* works container */
+section {
+    background: #E8E8E8;
+}
+
+  .container {
+      padding-top: 20px;
+      margin: 20px auto;
+      width: 50%;
+      height: 1500px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-row: auto auto auto auto;
+      grid-row-gap: 20px;
+  }
+  .box1 {
+    /* background-color: #FFF; */
+    padding-right: 0;
+    border-radius: 10px 0px 0px 10px;
+    color: #323232;
+    display: flex;
+    /* align-items: center; */
+    justify-content: flex-end;
+    font-size: 30px;
+  }
+
+  .box {
+    background-color: #FFF;
+    padding: 5% 10%;
+    border-radius: 0px 10px 10px 0px;
+    color: #323232;
+    display: flex;
+    text-align: left;
+    font-size: 30px;
+  }
+  .worksPic {
+      max-height: 100%;
+      max-width: 100%;
+      border-radius: 10px 0px 0px 10px;
+  }
