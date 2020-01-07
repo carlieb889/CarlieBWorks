@@ -28,7 +28,6 @@
     width: 100%;
   }
 
-
   label.logo{
     color: white;
     font-size: 50px;
@@ -117,6 +116,12 @@
   }
 
   /* End of Nav */
+.anchor {
+  display: block;
+  height: 80px;
+  margin-top: -80px;
+  visibility: hidden;
+}
 
   /* About Me */
 .intro {
@@ -145,6 +150,12 @@
 
 p {
     font-size: 18px;
+}
+
+.linkedIn {
+  color: #F87060;
+  text-decoration: underline;
+  margin: 0 auto;
 }
   
 
@@ -211,12 +222,12 @@ section {
   }
 
 
-  button {
+  .button {
       display: flex;
       margin: 0 auto;
       /* align-items: center; */
       justify-content: center;
-      align-items: flex-end;
+      align-items: center;
       height: 45px;
       width: 175px;
       background: #09b584;
