@@ -281,3 +281,84 @@ p {
   border-radius: 0px 10px 10px 0px;
 }
 
+/* Case Study for Bike Austin */
+
+.CaseStudy-Section {
+  background: #DDD;
+}
+
+.CaseStudyTitle {
+  padding-top: 40px;
+  margin: 40px auto;
+}
+
+.CaseStudy {
+  max-height: 710px;
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.CaseStudyIntro {
+  max-height:  710px;
+  background: #FFF;
+  padding: 10%;
+
+}
+
+.BATitlePic {
+  max-height: 710px;
+  width:100%;
+}
+
+.bvector {
+  width: 20%;
+}
+
+.processContainer2 {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #FFF;
+  display: flex;
+  justify-content: center;
+}
+
+.process2 {
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Empathize */
+
+.empathize {
+  width: 80%;
+  background: #FFF;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.empathizePic {
+  margin-left: 1%;
+  width: 100%;
+}
+
+.step1 {
+  color: #2c3e50;
+  padding: 0 10%;
+  /* text-align: center; */
+}
+
+.interviews1 {
+  width: 90%;
+  border: solid 1px #DDD;
+  border-radius: 1%;
+}
+
+.interviews {
+  width: 70%;
+  border: solid 1px #DDD;
+  border-radius: 1%;
+}
