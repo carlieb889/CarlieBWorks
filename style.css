@@ -301,16 +301,23 @@ p {
 .CaseStudyIntro {
   max-height:  600px;
   background: #FFF;
-  padding: 10%;
+  padding: 5% 10%;
 
+}
+
+.bum {
+  height: 600px;
+  background: #FFF;
+  display: flex;
 }
 
 .BATitlePic {
-  height: 600px;
-  background: #FFF;
-  max-height: 710px;
+  max-height: 600px;
   width:100%;
+  align-self: center;
+  justify-content: center;
 }
+
 
 .bvector {
   width: 15%;
