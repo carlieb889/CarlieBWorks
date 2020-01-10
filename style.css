@@ -192,7 +192,7 @@ p {
       padding-top: 20px;
       padding-bottom: 30px;
       margin: 20px auto;
-      width: 70%;
+      width: 60%;
       height: 1480px;
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -292,7 +292,7 @@ p {
 
 .CaseStudy {
   max-height: 600px;
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: 40% 60%;
@@ -358,6 +358,12 @@ p {
   padding: 0 10%;
 }
 
+.once {
+  font-family: 'Dancing Script', cursive;
+  color: #2c3e50;
+  padding: 0 10%;
+}
+
 .interviews1 {
   width: 90%;
   border: solid 1px #DDD;
@@ -374,6 +380,13 @@ p {
 .interviews {
   justify-content: center;
   width: 70%;
+  border: solid 1px #DDD;
+  border-radius: 1%;
+}
+
+.interviews3 {
+  justify-content: center;
+  width: 20%;
   border: solid 1px #DDD;
   border-radius: 1%;
 }
