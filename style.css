@@ -279,7 +279,7 @@ p {
   border-radius: 0px 10px 10px 0px;
 }
 
-/* Case Study for Bike Austin */
+/* Case Study */
 
 .CaseStudy-Section {
   background: #DDD;
@@ -292,10 +292,10 @@ p {
 
 .CaseStudy {
   max-height: 710px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 30% 70%;
+  grid-template-columns: 35% 65%;
 }
 
 .CaseStudyIntro {
