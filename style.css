@@ -292,10 +292,10 @@ p {
 
 .CaseStudy {
   max-height: 710px;
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 35% 65%;
+  grid-template-columns: 40% 60%;
 }
 
 .CaseStudyIntro {
@@ -306,6 +306,8 @@ p {
 }
 
 .BATitlePic {
+  height: 710px;
+  background: #FFF;
   max-height: 710px;
   width:100%;
 }
