@@ -370,3 +370,12 @@ p {
   border: solid 1px #DDD;
   border-radius: 1%;
 }
+
+.backButton {
+  width: 80%;
+  background: #FFF;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 50px;
+  justify-content: center;
+}
