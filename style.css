@@ -16,6 +16,7 @@
     color: inherit; 
 } 
 
+
   nav{
     background: #0E4B50;
     height: 80px;
@@ -219,6 +220,7 @@ p {
     flex-direction: column;
     text-align: left;
     font-size: 30px;
+    margin-right: 18%;
   }
   .worksPic {
       max-height: 100%;
@@ -242,6 +244,7 @@ p {
       font-size: 16px;
       box-shadow: 0 3px 2 rgba(14, 75, 80, 3);
       border-radius: 5%;
+      cursor: pointer !important;
   }
 
 /* End of Work */
@@ -297,6 +300,7 @@ p {
   display: grid;
   grid-template-columns: 40% 60%;
 }
+
 
 .CaseStudyIntro {
   max-height:  600px;
