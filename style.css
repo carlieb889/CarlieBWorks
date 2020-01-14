@@ -220,7 +220,8 @@ p {
     flex-direction: column;
     text-align: left;
     font-size: 30px;
-    margin-right: 18%;
+    /* margin-right: 12%; */
+    width: 384px;
   }
   .worksPic {
       max-height: 100%;
