@@ -199,6 +199,12 @@ h1 {
     text-align: center;
 }
 
+@media (max-width: 600px) {
+  .worksTitle {
+    font-size: 35px;
+  }
+}
+
 .processContainer {
     margin: 0 auto;
     width: 70%;
@@ -231,7 +237,6 @@ h1 {
     box-shadow: 10px 10px 5px grey;
     max-width: 384px;
     align-self: flex-end;
-
   }
 
   .box {
@@ -244,11 +249,11 @@ h1 {
     flex-direction: column;
     text-align: left;
     font-size: 30px;
-    /* margin-right: 12%; */
     width: 384px;
     box-shadow: 10px 10px 5px grey;
 
   }
+
   .worksPic {
       max-height: 100%;
       max-width: 100%;
@@ -275,7 +280,6 @@ h1 {
   .button {
       display: flex;
       margin: 0 auto;
-      /* align-items: center; */
       justify-content: center;
       align-items: center;
       height: 45px;
@@ -289,6 +293,38 @@ h1 {
       border-radius: 5%;
       cursor: pointer !important;
   }
+
+
+  /* @media all and (max-width: 600px) {
+    .container {
+      height: auto;
+      width: 360px;
+    }
+    .box1 {
+      height: 140px;
+      width: 100%;
+    }
+    .box {
+      height: 180px;
+      width: 100%;
+    }
+    .role {
+      font-size: 12px;
+    }
+  
+    .StudyTitle {
+      font-size: 14px;
+    }
+  
+    .dscript {
+      font-size: 12px;
+    }
+    .button {
+      height: 20px;
+      width: 50px;
+      font-size: 14px;
+    }
+  } */
 
 /* End of Work */
 
