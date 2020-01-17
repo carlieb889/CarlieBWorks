@@ -91,7 +91,7 @@
     .checkbtn{
       display: block;
     }
-
+  
     ul{
       position: fixed;
       width: 100%;
@@ -119,6 +119,7 @@
     }
   }
 
+
   /* End of Nav */
 .anchor {
   display: block;
@@ -139,18 +140,17 @@
     grid-column-gap: 20px;
   }
 
- 
+  .me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .thatsMe {
     max-height: 70%;
     width: auto;
 }
 
-.me {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 h1 {
     font-size: 18px;
@@ -167,16 +167,20 @@ h1 {
   margin: 0 10px;
 }
 
-@media all and (max-width: 600px) {
+@media all and (max-width: 858px) {
+  nav {
+    width: 100%;
+  }
   div.intro {
     width: 100%;
+    margin: 0;
   }
   h1 {
     font-size: 16px;
   }
   .thatsMe {
     max-height: 40%;
-  }
+  } 
 }
   
 
