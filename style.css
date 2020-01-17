@@ -91,6 +91,7 @@
     .checkbtn{
       display: block;
     }
+
     ul{
       position: fixed;
       width: 100%;
@@ -138,6 +139,8 @@
     grid-column-gap: 20px;
   }
 
+ 
+
 .thatsMe {
     max-height: 70%;
     width: auto;
@@ -164,6 +167,17 @@ h1 {
   margin: 0 10px;
 }
 
+@media all and (max-width: 600px) {
+  div.intro {
+    width: 100%;
+  }
+  h1 {
+    font-size: 16px;
+  }
+  .thatsMe {
+    max-height: 40%;
+  }
+}
   
 
   /* works container */
