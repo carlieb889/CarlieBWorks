@@ -201,7 +201,7 @@ h1 {
 
 @media (max-width: 600px) {
   .worksTitle {
-    font-size: 35px;
+    font-size: 30px;
   }
 }
 
@@ -294,6 +294,11 @@ h1 {
       cursor: pointer !important;
   }
 
+  @media all and (max-width: 600px){
+    .StudyTitle {
+      font-size: 35px;
+    }
+  }
 
   /* @media all and (max-width: 600px) {
     .container {
