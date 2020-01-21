@@ -1,3 +1,6 @@
+
+/* Made by Carlie for Carlie <3 */
+
 @import url('https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat&display=swap');
 
 *{
@@ -389,14 +392,15 @@ h1 {
   .CaseStudy {
     width: 100%;
   }
+  .steps {
+    width: 100%;
+  }
 }
-
 
 .CaseStudyIntro {
   max-height:  600px;
   background: #FFF;
   padding: 5% 10%;
-
 }
 
 .bum {
@@ -510,5 +514,8 @@ h1 {
   }
   .second {
     font-size: 16px;
+  }
+  .third {
+    font-size: 0px;
   }
 }
