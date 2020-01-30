@@ -392,7 +392,7 @@ h1 {
 .CaseStudyIntro {
   max-height:  600px;
   background: #FFF;
-  padding: 5% 10%;
+  padding: 10% 10%;
 }
 
 .bum {
@@ -514,15 +514,22 @@ h1 {
     width: 100%;
   }
   .process2 {
-    max-height: 80px;
+    max-height: 100px;
   }
   .CaseStudy {
     width: 100%;
+    max-height: 400px;
   }
   .steps {
     width: 100%;
   }
   .backButton {
     width: 100%;
+  }
+  .CaseStudyIntro {
+    max-height: 400px;
+  }
+  .bum {
+    max-height: 400px;
   }
 }
