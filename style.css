@@ -388,14 +388,6 @@ h1 {
   grid-template-columns: 40% 60%;
 }
 
-@media (max-width: 600px) {
-  .CaseStudy {
-    width: 100%;
-  }
-  .steps {
-    width: 100%;
-  }
-}
 
 .CaseStudyIntro {
   max-height:  600px;
@@ -517,5 +509,20 @@ h1 {
   }
   .third {
     font-size: 0px;
+  }
+  .processContainer2 {
+    width: 100%;
+  }
+  .process2 {
+    max-height: 80px;
+  }
+  .CaseStudy {
+    width: 100%;
+  }
+  .steps {
+    width: 100%;
+  }
+  .backButton {
+    width: 100%;
   }
 }
