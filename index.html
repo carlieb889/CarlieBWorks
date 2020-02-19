@@ -57,6 +57,43 @@
     <div><h2 class="worksTitle"><br>Check Out Some of my Work</h2></div>
     
     <div class="container">
+
+      <div class="box1"><img class="worksPic" src="images/ksirlogo2.jpg" style="width: 100%;"></div>
+        <div class="box">
+            <p class="role">UX|UI Designer</p><br>
+                <h3 class="StudyTitle">Brokerage Engine</h3>
+                <h4 class="dscript">Real Estate Back End Management Platform</h4><br> 
+                <!-- <a href="ksir.html" class="button">VIEW CASE STUDY</a> -->
+                
+<SCRIPT>
+  function passWord() {
+  var testV = 1;
+  var pass1 = prompt('Please Enter Password',' ');
+  while (testV < 3) {
+  if (!pass1)
+  history.go(-1);
+  if (pass1.toLowerCase() == "giraffe") {
+  alert('Correct!');
+  window.open('ksir.html');
+  break;
+  }
+  testV+=1;
+  var pass1 =
+  prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+  }
+  if (pass1.toLowerCase()!="password" & testV ==3)
+  history.go(-1);
+  return " ";
+  }
+  </SCRIPT>
+  <CENTER>
+  <FORM>
+  <input class="button" type="button" value="VIEW CASE STUDY" onClick="passWord()">
+  </FORM>
+  </CENTER>
+
+        </div>
+
         <div class="box1"><img class="worksPic" src="images/BA Mockup1.jpg"></div>
         <div class="box">
              <p class="role">UX Designer / Project Manager</p><br>
