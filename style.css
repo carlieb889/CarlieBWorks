@@ -263,6 +263,11 @@ h1 {
       border-radius: 10px 0px 0px 10px;
   }
 
+  #ksirWorksPic {
+    height: 85%;
+    margin-top: 7%;
+  }
+
   .role {
     font-size: 18px;
   }
