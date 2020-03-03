@@ -264,7 +264,7 @@ h1 {
   }
 
   #ksirWorksPic {
-    height: 80%;
+    height: 75%;
     margin-top: 10%;
   }
 
@@ -308,36 +308,6 @@ h1 {
     }
   }
 
-  /* @media all and (max-width: 600px) {
-    .container {
-      height: auto;
-      width: 360px;
-    }
-    .box1 {
-      height: 140px;
-      width: 100%;
-    }
-    .box {
-      height: 180px;
-      width: 100%;
-    }
-    .role {
-      font-size: 12px;
-    }
-  
-    .StudyTitle {
-      font-size: 14px;
-    }
-  
-    .dscript {
-      font-size: 12px;
-    }
-    .button {
-      height: 20px;
-      width: 50px;
-      font-size: 14px;
-    }
-  } */
 
 /* End of Work */
 
@@ -511,6 +481,12 @@ h1 {
   padding-top: 40px;
   padding-bottom: 50px;
   justify-content: center;
+}
+
+#ksirlink {
+  color: red;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 @media (max-width: 600px) {
