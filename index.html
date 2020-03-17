@@ -9,6 +9,8 @@
   </head>
   <body>
 
+    <!-- Made by Carlie for Carlie <3 -->
+
     <!-- Nav -->
     <nav class="sticky">
       <input type="checkbox" id="check">
@@ -55,6 +57,43 @@
     <div><h2 class="worksTitle"><br>Check Out Some of my Work</h2></div>
     
     <div class="container">
+
+      <div class="box1" style="background-color: #001848;"><img class="worksPic" id="ksirWorksPic" src="images/ksir.jpg"></div>
+        <div class="box">
+            <p class="role">UX|UI Designer</p><br>
+                <h3 class="StudyTitle">Brokerage Engine</h3>
+                <h4 class="dscript">Real Estate Back End Management Platform</h4><br> 
+                <!-- <a href="ksir.html" class="button">VIEW CASE STUDY</a> -->
+                
+<SCRIPT>
+  function passWord() {
+  var testV = 1;
+  var pass1 = prompt('Please Enter Password to View This Case Study',' ');
+  while (testV < 3) {
+  if (!pass1)
+  history.go(-0);
+  if (pass1.toLowerCase() == "giraffe") {
+  alert('Correct!');
+  window.open('https://carlieb889.github.io/CarlieBWorks/ksir.html', '_self');
+  break;
+  }
+  testV+=1;
+  var pass1 =
+  prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+  }
+  if (pass1.toLowerCase()!="password" & testV ==3)
+  history.go(-0);
+  return " ";
+  }
+  </SCRIPT>
+  <CENTER>
+  <FORM>
+  <input class="button" type="button" value="VIEW CASE STUDY" onClick="passWord()">
+  </FORM>
+  </CENTER>
+
+        </div>
+
         <div class="box1"><img class="worksPic" src="images/BA Mockup1.jpg"></div>
         <div class="box">
              <p class="role">UX Designer / Project Manager</p><br>
@@ -75,7 +114,7 @@
         <div class="box">
             <p class="role">UX Designer / Lead Developer</p><br>
                 <h3 class="StudyTitle">The Devil Made Me Do It</h3>
-                <h4 class="dscript">Tochy's Tacos sub-site for all Vegan Products</h4><br> 
+                <h4 class="dscript">Tochy's Tacos sub-site for Plant Based Menu</h4><br> 
                 <a href="torchys.html" class="button">VIEW CASE STUDY</a>
         </div>
 
