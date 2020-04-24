@@ -308,6 +308,12 @@ h1 {
     }
   }
 
+  @media all and (max-width: 400px){
+    .box1 {
+      max-width: 0px;
+    }
+  }
+
 
 /* End of Work */
 
